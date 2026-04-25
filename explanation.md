@@ -120,7 +120,6 @@ with open("Medical Reports\Medical Rerort - Michael Johnson - Panic Attack Disor
 
 - Reads the entire file into a single Python string `medical_report`.
 - The path uses **Windows-style backslashes**. That works on Windows; on macOS/Linux you would typically use forward slashes or `pathlib` for portability.
-- The filename contains a typo (`Rerort`); it matches the file that exists in the repo.
 
 ### Construct the specialist agents
 
