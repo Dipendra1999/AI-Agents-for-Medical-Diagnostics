@@ -11,7 +11,7 @@ import json, os
 load_dotenv(dotenv_path='apikey.env')
 
 # read the medical report
-with open("Medical Reports\Medical Rerort - Michael Johnson - Panic Attack Disorder.txt", "r") as file:
+with open("Medical Reports\Medical Report - Michael Johnson - Panic Attack Disorder.txt", "r") as file:
     medical_report = file.read()
 
 
